@@ -26,19 +26,72 @@ CarMart is a web-based car-selling e-commerce project designed to provide users 
 
 ```text
 CarMart/
+├── README.md
+├── .gitignore
+├── build/
+│   └── classes/
+│       └── carmart/
+│           ├── AddToCartServlet.class
+│           ├── Car.class
+│           ├── CarDAO.class
+│           ├── CarDAOImpl.class
+│           ├── CarDetailsServlet.class
+│           ├── CartItem.class
+│           ├── CartServlet.class
+│           ├── DBConnection.class
+│           ├── HomeServlet.class
+│           ├── LoginServlet.class
+│           ├── LogoutServlet.class
+│           ├── RegisterServlet.class
+│           ├── RemoveFromCartServlet.class
+│           ├── User.class
+│           ├── UserDAO.class
+│           ├── UserDAOImpl.class
+│           └── WishlistServlet.class
 ├── src/
 │   └── main/
+│       ├── java/
+│       │   └── carmart/
+│       │       ├── AddToCartServlet.java
+│       │       ├── Car.java
+│       │       ├── CarDAO.java
+│       │       ├── CarDAOImpl.java
+│       │       ├── CarDetailsServlet.java
+│       │       ├── CartItem.java
+│       │       ├── CartServlet.java
+│       │       ├── DBConnection.java
+│       │       ├── HomeServlet.java
+│       │       ├── LoginServlet.java
+│       │       ├── LogoutServlet.java
+│       │       ├── RegisterServlet.java
+│       │       ├── RemoveFromCartServlet.java
+│       │       ├── User.java
+│       │       ├── UserDAO.java
+│       │       ├── UserDAOImpl.java
+│       │       └── WishlistServlet.java
 │       └── webapp/
-│           ├── home.jsp
+│           ├── META-INF/
+│           │   └── MANIFEST.MF
+│           ├── WEB-INF/
+│           │   ├── web.xml
+│           │   └── lib/
+│           ├── css/
+│           │   └── style.css
+│           ├── js/
+│           │   └── script.js
+│           ├── car-details.jsp
 │           ├── cars.jsp
-│           ├── categories.jsp
 │           ├── cart.jsp
-│           └── login.jsp
-├── .gitignore
-└── README.md
+│           ├── categories.jsp
+│           ├── home.jsp
+│           ├── index.jsp
+│           ├── login.jsp
+│           └── register.jsp
+└── target/ (if generated during build)
+    └── classes/
 ```
 
-*Note: The structure above represents the main JSP pages. Additional Java source files and configuration files may be present depending on the project setup.*
+This project follows a typical Java Dynamic Web Project structure with servlet classes in `src/main/java/carmart`, JSP views in `src/main/webapp`, and configuration files under `WEB-INF`.
 
 ## ⚙️ Prerequisites
 
